@@ -1,5 +1,5 @@
 streamlit==1.26.0
-numpy>=1.21.0,<1.21.6  # Ensure compatibility with your Python version
+numpy>=1.22.0  # Compatible with Python 3.12
 sounddevice==0.4.6
 pyttsx3==2.90
 pywhatkit==5.4
