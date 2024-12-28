@@ -9,6 +9,7 @@ import wikipedia
 import pyjokes
 import speech_recognition as sr
 import threading
+import sounddevice as sd
 
 # Initialize recognizer and text-to-speech engine
 listener = sr.Recognizer()
@@ -137,3 +138,4 @@ if st.button("Activate Voice Assistant"):
 # Display the currently playing video if any
 if st.session_state["current_video"]:
     display_video(st.session_state["current_video"])
+print("Sounddevice is working correctly!")
